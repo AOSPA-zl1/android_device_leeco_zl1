@@ -331,3 +331,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libjson \
     libtinyxml2
+
+# Releasetools
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/bin/deunify.sh:install/bin/deunify.sh
