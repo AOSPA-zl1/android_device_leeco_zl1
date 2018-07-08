@@ -1,5 +1,5 @@
 #
-# system.prop for Le Pro3 (zl1)
+# system.prop for Le Pro 3 (zl1)
 #
 
 # Radio/RIL
@@ -185,8 +185,5 @@ persist.env.fastdorm.enabled=true
 # FlexMap
 persist.radio.flexmap_type=disabled
 
-# sdcardFS
+# SDCardFS
 ro.sys.sdcardfs=false
-
-# ParanoidHub
-ro.pa.device=zl1
